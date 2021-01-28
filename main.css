@@ -1,0 +1,133 @@
+:root {
+    --text-color: #646267;
+    --primary-color: #E8BE02;
+    --ratio: 220 / 625;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.grid {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.grid__content {
+    width: 800px;
+    max-width: 56%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 3.5vh;
+    background-color: #4F4D52;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 1rem;
+    vertical-align: middle;
+    margin: auto 0;
+}
+
+.banner {
+    /* width: 100%;
+    height: 40.4vh;
+    background: url(./media/img_hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; */
+    position: relative;
+    align-items: center;
+}
+
+.banner__img {
+    width: 100%;
+}
+
+.banner h1 {
+    margin: 0;
+    position: absolute;
+    color: var(--text-color);
+    font-size: 5vw;
+    top:50%;
+}
+
+.content {
+    margin: 7rem 0;
+}
+
+.content h2 {
+    font-size: 3vw;
+    color: var(--primary-color);
+    margin: 0 0 6rem;
+
+}
+
+.content p {
+}
+
+.content__separate {
+    width: 100%;
+    height: 0.6vh;
+    background-color: var(--primary-color);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20vh;
+    background-color: var(--text-color);
+    border-top: 0.6rem solid var(--primary-color);
+}
+
+.footer__content {
+    display:flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    font-weight: 300;
+
+}
+
+.footer__item-heading {
+    color: var(--primary-color);
+}
+
+.footer__item-list {
+    padding-left: 0;
+}
+
+.footer__item-ele {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer__item-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__item-diff {
+    margin-top: 5px;
+}
+
+
